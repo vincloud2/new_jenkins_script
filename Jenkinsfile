@@ -25,6 +25,11 @@ pipeline {
             steps {
                 echo 'Test my project'
             }
-        }        
+        } 
+        stage('Stage5_Test5') {
+            steps {
+                echo 'Test my project'
+            }
+        }         
     }
 }
