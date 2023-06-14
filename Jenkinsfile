@@ -1,5 +1,8 @@
 pipeline {
     agent { label "slave1" }
+    
+    triggers {
+        pollSCM('* * * * *')    
 
     stages {
         stage('Stage1_clone') {
