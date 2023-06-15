@@ -28,6 +28,11 @@ pipeline {
             steps {
                 echo 'Test my project'
             }
-        }        
+        }
+        stage('Stage5_production') {
+            steps {
+                echo 'Test my project'
+            }
+        }         
     }
 }
